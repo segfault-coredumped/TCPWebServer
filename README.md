@@ -14,19 +14,6 @@ This project implements a basic HTTP client and server using Python's socket lib
   - Receives and displays the server's response.
   - Can test valid and invalid HTML files.
 
-## Requirements
-
-- Python 3.x
-- Internet connection (optional, for loading images in HTML)
-
-## File Structure
-
-project/
-├── server.py       # HTTP server implementation
-├── client.py       # HTTP client implementation
-├── index.html      # Example HTML file to serve
-└── README.md       # Project documentation
-
 ## How to Run
 
 ### Start the Server
@@ -41,7 +28,7 @@ python server.py
 python client.py
 
 - The client connects to 127.0.0.1 (localhost) and requests index.html by default.
-- To test a non-existing file, uncomment the badFile.html line in client.py.
+- To test a non-existing file, uncomment the missing_file.html line in client.py.
 
 ## Example HTML (index.html)
 
