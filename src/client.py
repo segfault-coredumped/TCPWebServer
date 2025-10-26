@@ -21,7 +21,7 @@ if __name__ == "__main__":
     server_ip = "127.0.0.1"  # Use the IP of the server, in this case, localhost is used
     server_port = 12000
     # Uncomment to test 404 and comment
-    # filename = "badFile.html"
+    # filename = "missing_file.html"
     # Valid HTML
     filename = "index.html"
     create_client_request(server_ip, server_port, filename)
